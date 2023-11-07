@@ -1,0 +1,44 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Single</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+        <!-- 온도조절 -->
+        <div class="temp-container">
+        <div class="temp" #tempElement1>
+          <div class="temp__logo"></div>
+          <div class="temp__comet"></div>
+          <canvas class="temp__fizz"></canvas>
+          <div class="temp__label">온도</div>
+          <div class="temp__value">0</div>
+          <div class="temp__dial">●</div>
+        </div>
+      </div>
+<!-- 온도조절 -->
+<div class="temp-container">
+  <div class="temp" #tempElement2>
+    <div class="temp__logo"></div>
+    <div class="temp__comet"></div>
+    <canvas class="temp__fizz"></canvas>
+    <div class="temp__label">온도</div>
+    <div class="temp__value">0</div>
+    <div class="temp__dial">●</div>
+  </div>
+</div>
+<!-- 온도조절 -->
+<div class="temp-container">
+<div class="temp" #tempElement3>
+  <div class="temp__logo"></div>
+  <div class="temp__comet"></div>
+  <canvas class="temp__fizz"></canvas>
+  <div class="temp__label">온도</div>
+  <div class="temp__value">0</div>
+  <div class="temp__dial">●</div>
+</div>
+</div>
+</ion-content>
